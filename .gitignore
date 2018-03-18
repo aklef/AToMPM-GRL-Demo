@@ -2,6 +2,7 @@
 *
 # Save the gitignore file...
 !.gitignore
+!*.md
 # Now, whitelist anything that's a useful directory
 !Models
 !Formalisms
