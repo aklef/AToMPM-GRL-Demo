@@ -1,0 +1,14 @@
+# First, ignore everything
+*
+# Save the gitignore file...
+!.gitignore
+# Now, whitelist anything that's a useful directory
+!Models
+!Formalisms
+!Models/GRL
+!Formalisms/GRL
+# And all the file types you're interested in.
+!Models/GRL/*.model
+!Formalisms/GRL/*.model
+!Models/GRL/*.metamodel
+!Formalisms/GRL/*.metamodel
