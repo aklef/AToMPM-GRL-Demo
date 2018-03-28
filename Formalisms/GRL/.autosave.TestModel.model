@@ -138,9 +138,9 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Actor/8.instance"
+					"value": "/Formalisms/GRL/GRL/Actor/8.instance"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/ActorIcon"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/ActorIcon"
 			},
 			"9": {
 				"typename": {
@@ -318,9 +318,9 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Goal/9.instance"
+					"value": "/Formalisms/GRL/GRL/Goal/9.instance"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/GoalIcon"
 			},
 			"10": {
 				"link-style": {
@@ -379,16 +379,16 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/relationship/10.instance"
+					"value": "/Formalisms/GRL/GRL/relationship/10.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GRLTest2/GRL.defaultIcons/ActorIcon/8.instance--/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/10.instance": "M727.9985006482354,136.72720000000007L751.1319463025407,148.93361830622908",
-						"/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/10.instance--/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/9.instance": "M751.065343373808,148.8984751104995L720.9994902826581,264.99973295376583"
+						"/Formalisms/GRL/GRL.defaultIcons/ActorIcon/8.instance--/Formalisms/GRL/GRL.defaultIcons/relationshipLink/10.instance": "M727.9985006482354,136.72720000000007L751.1319463025407,148.93361830622908",
+						"/Formalisms/GRL/GRL.defaultIcons/relationshipLink/10.instance--/Formalisms/GRL/GRL.defaultIcons/GoalIcon/9.instance": "M751.065343373808,148.8984751104995L720.9994902826581,264.99973295376583"
 					}
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/relationshipLink"
 			},
 			"11": {
 				"typename": {
@@ -566,9 +566,9 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Goal/11.instance"
+					"value": "/Formalisms/GRL/GRL/Goal/11.instance"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/GoalIcon"
 			},
 			"13": {
 				"link-style": {
@@ -627,16 +627,16 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/relationship/13.instance"
+					"value": "/Formalisms/GRL/GRL/relationship/13.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GRLTest2/GRL.defaultIcons/ActorIcon/8.instance--/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/13.instance": "M681.2332743501786,114.09909327839839L722.7143930694544,162.66399739034281",
-						"/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/13.instance--/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/11.instance": "M722.7140851773806,162.66363691913295L927.999384860824,235.99928172004346"
+						"/Formalisms/GRL/GRL.defaultIcons/ActorIcon/8.instance--/Formalisms/GRL/GRL.defaultIcons/relationshipLink/13.instance": "M681.2332743501786,114.09909327839839L722.7143930694544,162.66399739034281",
+						"/Formalisms/GRL/GRL.defaultIcons/relationshipLink/13.instance--/Formalisms/GRL/GRL.defaultIcons/GoalIcon/11.instance": "M722.7140851773806,162.66363691913295L927.999384860824,235.99928172004346"
 					}
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/relationshipLink"
 			},
 			"14": {
 				"typename": {
@@ -775,9 +775,9 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Actor/14.instance"
+					"value": "/Formalisms/GRL/GRL/Actor/14.instance"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/ActorIcon"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/ActorIcon"
 			},
 			"17": {
 				"typename": {
@@ -955,9 +955,9 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Goal/17.instance"
+					"value": "/Formalisms/GRL/GRL/Goal/17.instance"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/GoalIcon"
 			},
 			"18": {
 				"link-style": {
@@ -1016,16 +1016,16 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/relationship/18.instance"
+					"value": "/Formalisms/GRL/GRL/relationship/18.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GRLTest2/GRL.defaultIcons/ActorIcon/14.instance--/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/18.instance": "M459.1191535410087,420.4054225798427L457.55957677050424,447.20271128992135",
-						"/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink/18.instance--/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/17.instance": "M457.5551795353763,447.27826639018133L417.0000332705242,458.99942833218734"
+						"/Formalisms/GRL/GRL.defaultIcons/ActorIcon/14.instance--/Formalisms/GRL/GRL.defaultIcons/relationshipLink/18.instance": "M459.1191535410087,420.4054225798427L457.55957677050424,447.20271128992135",
+						"/Formalisms/GRL/GRL.defaultIcons/relationshipLink/18.instance--/Formalisms/GRL/GRL.defaultIcons/GoalIcon/17.instance": "M457.5551795353763,447.27826639018133L417.0000332705242,458.99942833218734"
 					}
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/relationshipLink"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/relationshipLink"
 			},
 			"24": {
 				"link-style": {
@@ -1082,7 +1082,7 @@
 							"40": {
 								"textContent": {
 									"type": "string",
-									"value": 50
+									"value": 77
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -1187,16 +1187,16 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Contribution/24.instance"
+					"value": "/Formalisms/GRL/GRL/Contribution/24.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/17.instance--/Formalisms/GRLTest2/GRL.defaultIcons/ContributionLink/24.instance": "M510,516L891,501",
-						"/Formalisms/GRLTest2/GRL.defaultIcons/ContributionLink/24.instance--/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/11.instance": "M891,501L939,274"
+						"/Formalisms/GRL/GRL.defaultIcons/GoalIcon/17.instance--/Formalisms/GRL/GRL.defaultIcons/ContributionLink/24.instance": "M510,516L891,501",
+						"/Formalisms/GRL/GRL.defaultIcons/ContributionLink/24.instance--/Formalisms/GRL/GRL.defaultIcons/GoalIcon/11.instance": "M891,501L939,274"
 					}
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/ContributionLink"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/ContributionLink"
 			},
 			"29": {
 				"link-style": {
@@ -1370,21 +1370,21 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GRLTest2/GRL/Decomposition/29.instance"
+					"value": "/Formalisms/GRL/GRL/Decomposition/29.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/9.instance--/Formalisms/GRLTest2/GRL.defaultIcons/DecompositionLink/29.instance": "M768,273L832,266",
-						"/Formalisms/GRLTest2/GRL.defaultIcons/DecompositionLink/29.instance--/Formalisms/GRLTest2/GRL.defaultIcons/GoalIcon/11.instance": "M832,266L884,251"
+						"/Formalisms/GRL/GRL.defaultIcons/GoalIcon/9.instance--/Formalisms/GRL/GRL.defaultIcons/DecompositionLink/29.instance": "M768,273L832,266",
+						"/Formalisms/GRL/GRL.defaultIcons/DecompositionLink/29.instance--/Formalisms/GRL/GRL.defaultIcons/GoalIcon/11.instance": "M832,266L884,251"
 					}
 				},
-				"$type": "/Formalisms/GRLTest2/GRL.defaultIcons/DecompositionLink"
+				"$type": "/Formalisms/GRL/GRL.defaultIcons/DecompositionLink"
 			}
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/GRLTest2/GRL.defaultIcons"
+			"/Formalisms/GRL/GRL.defaultIcons"
 		]
 	},
 	"asm": {
@@ -1394,7 +1394,7 @@
 					"type": "string",
 					"value": "Actor1"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Actor"
+				"$type": "/Formalisms/GRL/GRL/Actor"
 			},
 			"9": {
 				"importance": {
@@ -1405,10 +1405,10 @@
 					"type": "string",
 					"value": "but1"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Goal"
+				"$type": "/Formalisms/GRL/GRL/Goal"
 			},
 			"10": {
-				"$type": "/Formalisms/GRLTest2/GRL/relationship"
+				"$type": "/Formalisms/GRL/GRL/relationship"
 			},
 			"11": {
 				"importance": {
@@ -1419,17 +1419,17 @@
 					"type": "string",
 					"value": "but3"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Goal"
+				"$type": "/Formalisms/GRL/GRL/Goal"
 			},
 			"13": {
-				"$type": "/Formalisms/GRLTest2/GRL/relationship"
+				"$type": "/Formalisms/GRL/GRL/relationship"
 			},
 			"14": {
 				"name": {
 					"type": "string",
 					"value": "Actor2"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Actor"
+				"$type": "/Formalisms/GRL/GRL/Actor"
 			},
 			"17": {
 				"importance": {
@@ -1440,24 +1440,24 @@
 					"type": "string",
 					"value": "but2"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Goal"
+				"$type": "/Formalisms/GRL/GRL/Goal"
 			},
 			"18": {
-				"$type": "/Formalisms/GRLTest2/GRL/relationship"
+				"$type": "/Formalisms/GRL/GRL/relationship"
 			},
 			"24": {
 				"weight": {
 					"type": "int",
-					"value": 50
+					"value": 77
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Contribution"
+				"$type": "/Formalisms/GRL/GRL/Contribution"
 			},
 			"29": {
 				"associate": {
 					"type": "ENUM(OR,AND)",
 					"value": "AND"
 				},
-				"$type": "/Formalisms/GRLTest2/GRL/Decomposition"
+				"$type": "/Formalisms/GRL/GRL/Decomposition"
 			}
 		},
 		"edges": [
@@ -1503,7 +1503,7 @@
 			}
 		],
 		"metamodels": [
-			"/Formalisms/GRLTest2/GRL"
+			"/Formalisms/GRL/GRL"
 		]
 	}
 }
