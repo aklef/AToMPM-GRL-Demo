@@ -1,7 +1,7 @@
 {
 	"csm": {
 		"nodes": {
-			"2": {
+			"0": {
 				"typename": {
 					"type": "string",
 					"value": "ClassIcon"
@@ -9,8 +9,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						"557",
-						"334"
+						537,
+						129
 					]
 				},
 				"orientation": {
@@ -90,7 +90,7 @@
 							"6": {
 								"textContent": {
 									"type": "string",
-									"value": "Actor"
+									"value": "Element"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -99,7 +99,7 @@
 										"fill": "#ffffff",
 										"fill-opacity": 0.75,
 										"font-size": "20px",
-										"font-style": "normal"
+										"font-style": "italic"
 									}
 								},
 								"mapper": {
@@ -354,11 +354,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/2.instance"
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/0.instance"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon"
 			},
-			"3": {
+			"1": {
 				"typename": {
 					"type": "string",
 					"value": "ClassIcon"
@@ -366,8 +366,365 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						"854",
-						"360"
+						302,
+						346
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"5": {
+								"width": {
+									"type": "double",
+									"value": 200
+								},
+								"height": {
+									"type": "double",
+									"value": 125
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 5
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"stroke-width": 2
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										0,
+										0
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"6": {
+								"textContent": {
+									"type": "string",
+									"value": "Actor"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"font-style": "normal"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var style = \n    {\n       \"stroke\": \"#000000\",\n       \"fill\": \"#ffffff\",\n       \"fill-opacity\": 0.75,\n       \"font-size\": \"20px\",\n       \"font-style\": (getAttr('abstract') ? 'italic' : 'normal')\n    };\n\n({'textContent': getAttr('name'), 'style':style})\n\n\n\n"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'name': getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										23,
+										2
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"7": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										13.896110991026944,
+										3.0451514439171206
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"arrow-start": "none",
+										"arrow-end": "classic-wide-long"
+									}
+								}
+							},
+							"17": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0l200,0"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 2,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										1,
+										26
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"18": {
+								"textContent": {
+									"type": "string",
+									"value": ""
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "13px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "var filenames = getAttr('attributes').map(\n\t\t\t\tfunction(attr)\n\t\t\t\t{\n\t\t\t\t\treturn attr['name'];\n\t\t\t\t});\n({'textContent': filenames.join('\\n')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": ""
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										3,
+										25
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"19": {
+								"width": {
+									"type": "boolean",
+									"value": true
+								},
+								"ratio": {
+									"type": "double",
+									"value": 1
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Span",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										168.09129891774523,
+										30.625911571363645
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#0000ff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 1,
+										"arrow-start": "none",
+										"arrow-end": "classic-wide-long"
+									}
+								}
+							},
+							"20": {
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Contain",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6.49899850809561,
+										18.998998508095553
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"link-style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#00ffff",
+										"stroke-dasharray": "",
+										"stroke-opacity": 0.1,
+										"arrow-start": "none",
+										"arrow-end": "classic-wide-long"
+									}
+								}
+							}
+						},
+						"edges": [
+							{
+								"src": "5",
+								"dest": "7"
+							},
+							{
+								"src": "7",
+								"dest": "6"
+							},
+							{
+								"src": "17",
+								"dest": "19"
+							},
+							{
+								"src": "19",
+								"dest": "5"
+							},
+							{
+								"src": "5",
+								"dest": "20"
+							},
+							{
+								"src": "20",
+								"dest": "18"
+							}
+						]
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/1.instance"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon"
+			},
+			"2": {
+				"typename": {
+					"type": "string",
+					"value": "ClassIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						754,
+						349
 					]
 				},
 				"orientation": {
@@ -567,7 +924,7 @@
 							"18": {
 								"textContent": {
 									"type": "string",
-									"value": "satisfied"
+									"value": "importance"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -711,23 +1068,473 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/3.instance"
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class/2.instance"
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon"
+			},
+			"5": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "- ",
+						"stroke-opacity": 1,
+						"stroke-width": 2,
+						"arrow-start": "none",
+						"arrow-end": "classic-wide-long"
+					}
+				},
+				"typename": {
+					"type": "string",
+					"value": "InheritanceLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						538.9332153561311,
+						313.9076725254537
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance/5.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/1.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink/5.instance": "M458,370L538.9332153561311,313.9076725254537",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink/5.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/0.instance": "M538.9332153561311,313.9076725254537L559,300L570.9999325068056,227.00041058359918"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink"
+			},
+			"6": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "- ",
+						"stroke-opacity": 1,
+						"stroke-width": 2,
+						"arrow-start": "none",
+						"arrow-end": "classic-wide-long"
+					}
+				},
+				"typename": {
+					"type": "string",
+					"value": "InheritanceLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						703.6300682810804,
+						312.72134338101756
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance/6.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink/6.instance": "M774,379L703.6300682810804,312.72134338101756",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink/6.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/0.instance": "M703.6300682810804,312.72134338101756L688,298L675.0000692717036,224.00039431585185"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/InheritanceLink"
+			},
+			"7": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2,
+						"arrow-start": "none",
+						"arrow-end": "classic-wide-long"
+					}
+				},
+				"typename": {
+					"type": "string",
+					"value": "AssociationLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						620.1499999794544,
+						428.49951923083506
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"15": {
+								"textContent": {
+									"type": "string",
+									"value": "relationship"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('name')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'name':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										1,
+										-19
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association/7.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/1.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/7.instance": "M464,429L620.1499999794544,428.49951923083506",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/7.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance": "M620.0747115359228,428.499760539949L775.9991351701183,428.00000277189065"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink"
+			},
+			"18": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2,
+						"arrow-start": "none",
+						"arrow-end": "classic-wide-long"
+					}
+				},
+				"typename": {
+					"type": "string",
+					"value": "AssociationLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						815.4272698946784,
+						588.9187675242404
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"15": {
+								"textContent": {
+									"type": "string",
+									"value": "Decomposition"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('name')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'name':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										1,
+										-19
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association/18.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/18.instance": "M772.6363596561528,459L753.6363596561528,589L815.0909060761949,588.9090902391545",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/18.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance": "M815.0909060761949,588.9090902391545L815.6363596561528,587L803.6364447758614,457.0009221301775"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink"
+			},
+			"20": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2,
+						"arrow-start": "none",
+						"arrow-end": "classic-wide-long"
+					}
+				},
+				"typename": {
+					"type": "string",
+					"value": "AssociationLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						927.1784788187676,
+						632.9090902391546
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": ""
+				},
+				"parser": {
+					"type": "code",
+					"value": ""
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"15": {
+								"textContent": {
+									"type": "string",
+									"value": "Contribution"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 0.75,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "({'textContent':getAttr('name')})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "({'name':getAttr('textContent')})"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										1,
+										-19
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association/20.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/20.instance": "M871.6363596561528,444L840.6363596561528,633L927.0909060761949,632.9090902391545",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink/20.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/ClassIcon/2.instance": "M927.0909060761949,632.9090902391545L931.0909060761949,632.9090902391545L901.636460173709,449.00063776656384"
+					}
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons/AssociationLink"
 			}
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons",
-			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons"
+			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.defaultIcons"
 		]
 	},
 	"asm": {
 		"nodes": {
-			"2": {
+			"0": {
 				"name": {
 					"type": "string",
-					"value": "Actor"
+					"value": "Element"
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
@@ -735,7 +1542,67 @@
 						{
 							"name": "name",
 							"type": "string",
-							"default": ""
+							"default": "null"
+						}
+					]
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": true
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"1": {
+				"name": {
+					"type": "string",
+					"value": "Actor"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"abstract": {
+					"type": "boolean",
+					"value": false
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+			},
+			"2": {
+				"name": {
+					"type": "string",
+					"value": "Goal"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": [
+						{
+							"name": "importance",
+							"type": "int",
+							"default": "0"
 						}
 					]
 				},
@@ -757,18 +1624,58 @@
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
 			},
-			"3": {
+			"5": {
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance"
+			},
+			"6": {
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Inheritance"
+			},
+			"7": {
 				"name": {
 					"type": "string",
-					"value": "Goal"
+					"value": "relationship"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": []
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": [
+						{
+							"dir": "",
+							"type": "",
+							"min": "0",
+							"max": "*"
+						}
+					]
+				},
+				"linktype": {
+					"type": "ENUM(visual,containment)",
+					"value": "containment"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association"
+			},
+			"18": {
+				"name": {
+					"type": "string",
+					"value": "Decomposition"
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
 					"value": [
 						{
-							"name": "satisfied",
-							"type": "boolean",
-							"default": false
+							"name": "associate",
+							"type": "ENUM(OR,AND)",
+							"default": "AND"
 						}
 					]
 				},
@@ -784,17 +1691,90 @@
 					"type": "list<$CARDINALITY>",
 					"value": []
 				},
-				"abstract": {
-					"type": "boolean",
-					"value": false
+				"linktype": {
+					"type": "ENUM(visual,containment)",
+					"value": "visual"
 				},
-				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Class"
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association"
+			},
+			"20": {
+				"name": {
+					"type": "string",
+					"value": "Contribution"
+				},
+				"attributes": {
+					"type": "list<$ATTRIBUTE>",
+					"value": [
+						{
+							"name": "weight",
+							"type": "int",
+							"default": "100"
+						}
+					]
+				},
+				"constraints": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"actions": {
+					"type": "list<$EVENT_HANDLER>",
+					"value": []
+				},
+				"cardinalities": {
+					"type": "list<$CARDINALITY>",
+					"value": []
+				},
+				"linktype": {
+					"type": "ENUM(visual,containment)",
+					"value": "visual"
+				},
+				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram/Association"
 			}
 		},
-		"edges": [],
+		"edges": [
+			{
+				"src": "1",
+				"dest": "5"
+			},
+			{
+				"src": "5",
+				"dest": "0"
+			},
+			{
+				"src": "2",
+				"dest": "6"
+			},
+			{
+				"src": "6",
+				"dest": "0"
+			},
+			{
+				"src": "1",
+				"dest": "7"
+			},
+			{
+				"src": "7",
+				"dest": "2"
+			},
+			{
+				"src": "2",
+				"dest": "18"
+			},
+			{
+				"src": "18",
+				"dest": "2"
+			},
+			{
+				"src": "2",
+				"dest": "20"
+			},
+			{
+				"src": "20",
+				"dest": "2"
+			}
+		],
 		"metamodels": [
-			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram",
-			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax"
+			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram"
 		]
 	}
 }
